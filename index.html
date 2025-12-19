@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Personal Portfolio Website</title>
+  <script src="https://kit.fontawesome.com/bc22562708.js" crossorigin="anonymous"></script>
+</head>
+<style>
+#header {
+  background-image: url("images/hoodie.jpg");
+  background-size: cover;       
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 100vh;
+}
+</style>
+<body>
+  <div id="header">
+    <div class="container">
+      <img src="images/logo.png" class="logo">
+      <br>
+      <button id="menuBtn">☰</button>
+      <nav class="side-menu" id="sideMenu">
+        <button class="close-btn" id="closeBtn">×</button>
+        
+        <ul id="sidemenu">
+          <li><a href="">Home</a> </li>
+          <li><a href="">About</a> </li>
+          <li><a href="">Projects</a> </li>
+          <li><a href="">Contact</a> </li>
+        </ul>
+      </nav>
+      <br>
+      <br>
+      <div class="header-text">
+        <p>Web Designer</p>
+      <h1>Hi, I’m <span>Phoebe</span> <br>Evror from Nigeria.</h1>
+      </div>
+    </div>
+  </div>
+  
+  <!--ABOUT-->
+  <br>
+  <br>
+  <div>
+    <div id="About">
+      <div class="Container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/portrait.jpg" width="180px">
+          </div>
+          <div class="about-col-2">
+            <h1> ABOUT <span>ME</span></h1>
+            <p class="sub-title">
+              
+I’m a writer, artist, and front-end developer who creates meaningful and visually cohesive work across multiple mediums. 
+              I approach every project with intention and precision, using my skills in HTML, CSS, 
+              and JavaScript to build experiences that are both functional and refined.
+            </p>
+           
+            <br>
+            <div class="tab-titles">
+              <p class="tab-links">Skills</p>
+            </div>
+            <div class="tab-contents">
+              <ul>
+                <li><span>UI/UX</span><br>Design web/App Interfaces</li>
+                <li><span>Web Development</span><br>Web/App Development</li>
+                <li><span>App Development</span><br>Build Andriod/IOS Apps</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+    <!-- PROJECTS!-->
+    <div id="Projects"> 
+      <div class="container">
+        <h1 class="sub-titles"><span>My</span> Projects</h1>
+        <div class="project-list">
+          <br>
+         
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p class="lead">Personal Landing Page
+A clean, responsive layout built with HTML, CSS, and vanilla JavaScript.</p>
+            <a href="google.com">learn more</a>
+          </div>
+            <br>
+            <br>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>This project focuses on creating a modern, 
+              user-centered interface designed with clarity, 
+              accessibility, and visual balance in mind. 
+              The goal was to build a seamless user experience 
+              by combining thoughtful layout structure, intuitive navigation, 
+              and refined aesthetic choices.</p>
+            <a href="google.com">learn more</a>
+          </div>
+            <br>
+            <br>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>This project is a clean and user-focused mobile app interface designed to 
+              provide a smooth and intuitive user experience. 
+              The goal was to combine visual clarity with functional layout, 
+              ensuring that every screen feels simple, responsive, and easy to navigate.</p>
+            <a href="google.com">learn more</a>
+          </div> 
+        </div>
+      </div>
+    </div>
+    
+     <!-- PORTFOLIO!-->
+    <div id="Projects">
+      <div class="container">
+        <h1 class="sub-titles"><span>My</span> Portfolio</h1>
+      </div>
+    </div>
+
+  <div class="slider">
+    <div class="slides">
+      <img src="images/web1.jpg" alt="">
+      <img src="images/web2.jpg" alt="">
+      <img src="images/web3.jpg" alt="">
+    </div>
+  </div>
+
+  <button class="btn" id="next">❯</button>
+</div>
+
+<div class="dots-container">
+  <span class="dot active"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+  <br>
+  
+  <!--CONTACT!-->
+  <div id="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-titles">Contact <span>Me</span></h1>
+          <h4>For more collaborations and support</h4>
+          <p><i class="fa fa-paper-plane-o" aria-hidden="true"></i>evrorphoebe@gmail.com</p>
+          <p><i class="fa fa-mobile" aria-hidden="true"></i>+234-814-5416-131</p>
+          <div class="social-icon">
+            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="full name" required>
+            <input type="email" name="Email" placeholder="email address" required>
+            <textarea name="message" rows="5" placeholder="your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright ©PHYBY. made with <i class="fa fa-gratipay" aria-hidden="true"></i> by CAPSTONE PROJECT</p>
+    </div>
+  </div>
+    
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
