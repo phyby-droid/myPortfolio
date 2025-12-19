@@ -8,7 +8,7 @@
 body{
   
   background: #343536;
-background: linear-gradient(90deg, rgba(52, 53, 54, 1) 0%, rgba(61, 57, 61, 1) 14%, rgba(2, 26, 23, 1) 38%, rgba(61, 56, 61, 1) 91%, rgba(30, 25, 31, 1) 100%);
+  background-image: linear-gradient(90deg, rgba(52, 53, 54, 1) 0%, rgba(61, 57, 61, 1) 14%, rgba(2, 26, 23, 1) 38%, rgba(61, 56, 61, 1) 91%, rgba(30, 25, 31, 1) 100%);
   color: #fff
 }
 
@@ -19,6 +19,7 @@ background: linear-gradient(90deg, rgba(52, 53, 54, 1) 0%, rgba(61, 57, 61, 1) 1
   border: none;
   cursor: pointer;
 }
+
 /* Side menu */
 .side-menu {
   position: fixed;
@@ -112,7 +113,7 @@ nav ul li a:hover::after{
   font-size: 10px;
 }
 .header-text h1{
-  margin-top:10px;
+  margin-top: 10px;
   font-size: 25px
 }
  span{
@@ -125,7 +126,7 @@ nav ul li a:hover::after{
   color: #FFFAFF;
 }
  .row{
-   display:flex;
+   display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
  }
@@ -133,7 +134,7 @@ nav ul li a:hover::after{
   flex-basis: 20%
 }
 .about-col-1 img{
-  width:100%;
+  width: 100%;
   border-radius: 10px
 }
 .about-col-2{
@@ -190,10 +191,10 @@ nav ul li a:hover::after{
 
 .project-list{
   background: #222;
-  padding:20px;
+  padding: 20px;
   font-weight: 200;
-  border-radius:  20px;
-  transition:background 0.5s, transition 0.5s;
+  border-radius: 20px;
+  transition: background 0.5s;
 }
 .project-list div i{
   font-size: 30px;
@@ -203,7 +204,7 @@ nav ul li a:hover::after{
    color: #E7B9ED;
  }
  .project-list div:hover{
-  background:#A6A2A6;
+  background: #A6A2A6;
   transform: translateY(10px);
    border-radius: 5px;
 }
@@ -276,7 +277,7 @@ nav ul li a:hover::after{
   margin-top: 20px;
 }
 .contact-left p i{
-  color:#E7B9ED;
+  color: #E7B9ED;
   font-size: 20px;
 }
 .social-icon{
@@ -289,24 +290,24 @@ nav ul li a:hover::after{
   display: inline-block;
 }
 .social-icon a:hover{
-  color:#E7B9ED;
+  color: #E7B9ED;
   transform: translateY(-5px);
 }
 .btn.btn2{
   display: inline-block;
-  background:#E7B9ED;
+  background: #E7B9ED;
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
 }
 .contact-right form{
-  width:100%;
+  width: 100%;
   
 }
 form input, form textarea{
-  width:100%;
+  width: 100%;
   background: #A6A2A6;
   padding: 10px;
   margin: 15px 0;
-  color:#fff;
+  color: #fff;
   font-size: 15px;
   border-radius: 5px;
 }
@@ -317,12 +318,12 @@ form .btn2{
   cursor: pointer;
 }
 .copyright{
-  width:100%;
+  width: 100%;
   text-align: center;
   padding: 20px 0;
   background: #A6A2A6;
   font-weight: 20;
-  margin-top:20px;
+  margin-top: 20px;
   
 }
 .copyright p i{
